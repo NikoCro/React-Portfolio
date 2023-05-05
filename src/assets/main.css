@@ -1,0 +1,70 @@
+.nav-tabs {
+    width: 90%;
+    height: 130px;
+    display: flex;
+    justify-content: end;
+    align-items: top right;
+    flex-wrap: wrap;
+    /* background-image: url("./images/coding.jpg") */
+    /* background-color: white; */
+    background-image: url("./images/BinaryCode.jpg")
+}
+
+.nav-item {
+
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+/* .text {
+    float: right;
+    width: 40%;
+    margin-right: 150px;
+    background-color: none;
+    padding: 20px;
+    flex-wrap: wrap;
+
+} */
+
+.text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    margin-left: 25px;
+    font-size: large;
+    margin-bottom: 100px;
+}
+
+.About {
+    display: flex;
+
+}
+
+.image {
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    align-items: center;
+}
+
+/* .logo {
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+} */
+
+/* .container {
+    text-align: center;
+    margin-top: 350px;
+    display: flex;
+    flex-direction: column;
+} */
+.container p {
+    text-align: center;
+}
